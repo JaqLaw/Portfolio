@@ -183,13 +183,13 @@ footer {
 }
 
 /* Screens that are 576px and smaller will not display the background video */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 300px) {
     #Ink_Video {
         display: none;
     }
 }
 
-/* Texts over the video */
+/* Text over the video */
 .Video_Text {
     background: rgba(0, 0, 0, 0.1); /* This provides a semi-transparent background for the text to sit over */
     color: white; /* Makes the font color white */
